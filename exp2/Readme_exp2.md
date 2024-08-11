@@ -50,7 +50,7 @@ Clone the repository to your local machine using:
 ## Output
 
 - Exp2a
-![alt text](image-1.png)
+![alt text](outputExp2a.png)
 
 - Exp2b
-![alt text](image-2.png)
+![alt text](outputExp2b.png)

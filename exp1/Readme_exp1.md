@@ -22,19 +22,18 @@
  1. Open a terminal and navigate to the `exp1` directory.
 
 ## Run the program:
-    ```bash
     g++ exp1(name_of_exp).cpp
-    ```
+
 ## Example
-    ```bash 
+    
     g++ exp1a.cpp
     ./a
-    ```
+
 
 ## Output 
  - Exp1a:
- ![alt text](image.png)
+ ![alt text](outputExp1a.png)
 
  - Exp1b:
- ![alt text](image-1.png)
+ ![alt text](outputExp1b.png)
 

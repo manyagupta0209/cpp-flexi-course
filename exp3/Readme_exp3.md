@@ -4,9 +4,9 @@
  This project is part of the "C++ Flexi Course" series, specifically focused on `exp3`. The purpose of this experiment is to understand the usage of `boolalpha` and `bitset` keywords.
 
 ## Features
- - Implementation of [specific feature 1, e.g., "basic class structure"]
- - Demonstration of [specific feature 2, e.g., "inheritance and polymorphism"]
- - Practical examples for [specific feature 3, e.g., "operator overloading"]
+ - Implementation of basic class structure
+ - Demonstration of inheritance and polymorphism
+ - Practical examples for operator overloading
 
 ## Prerequisites
  Before running the code in this experiment, ensure that you have the following installed:
@@ -34,10 +34,10 @@ Clone the repository and navigate to the `exp3` directory:
 
 ## Output
  - Exp3a
- ![alt text](image.png)
+ ![alt text](outputExp3a.png)
 
  - Exp3b
- ![alt text](image-1.png)
+ ![alt text](outputExp3b.png)
 
  - Exp3c
- ![alt text](image-2.png)
+ ![alt text](outputExp3c.png)

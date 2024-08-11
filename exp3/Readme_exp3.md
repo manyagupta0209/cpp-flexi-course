@@ -20,6 +20,18 @@ Clone the repository and navigate to the `exp3` directory:
     cd cpp-flexi-course/exp3
     ```
 
+## Project Structure
+ The project is organized as follows:
+ exp3/
+├── src/                   # Source files
+│   ├── main.cpp           # Main entry point of the project
+│   └── [other files]      # Other C++ source files
+├── include/               # Header files
+├── CMakeLists.txt         # CMake configuration file (if used)
+└── README.md              # This file
+
+
+
 ## Output
  - Exp3a
  ![alt text](image.png)

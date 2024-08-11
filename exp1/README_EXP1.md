@@ -34,5 +34,9 @@ To compile and run the program:
     ./exp1 < input.txt
 
 ## Output 
+-Exp1a:
 ![alt text](image.png)
+
+-Exp1b:
+![alt text](image-1.png)
 

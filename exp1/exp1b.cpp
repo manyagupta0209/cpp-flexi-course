@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a,b,sum,sub,mult,div;
+    float a,b,sum,sub,mult,div;
     cout<<"enter the first"<<endl;
     cin>>a;
     cout<<"enter the second number"<<endl;
@@ -10,7 +10,6 @@ int main(){
     sub=a-b;
     mult=a*b;
     div=a/b;
-    float div=static_cast<float>(a)/static_cast<float>(b);
     cout<<"the sum of "<<a<<" and "<<b<<" is = "<<float(sum)<<endl;
     cout<<"the difference of "<<a<<" and "<<b<<" is = "<<float(sub)<<endl;
     cout<<"the multiplication of "<<a<<" and "<<b<<" is = "<<float(mult)<<endl;

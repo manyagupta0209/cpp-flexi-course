@@ -30,7 +30,7 @@ To set up the project locally, follow these steps:
 
 Clone the repository to your local machine:
 
-bash
+`bash`
 git clone https://github.com/manyagupta0209/cpp-flexi-course.git
 cd cpp-flexi-course/exp7
 
@@ -52,7 +52,7 @@ exp6/
 ### Using Command Line
 
 -Run the compiled program:
-    bash
+   `bash`
     g++ exp7(name_of_exp).cpp
     ./a
     

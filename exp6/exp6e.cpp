@@ -14,7 +14,7 @@ int main(){
     }
     cout<<endl;
         }
-
+    cout<<endl;
     //for same number in each row
     int count2=1;
     for(int i=0;i<number;i++){

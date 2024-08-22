@@ -5,6 +5,7 @@ int main(){
     cout<<"enter the number of elements in an array= ";
     cin>>elements;
     int arr[elements];
+    cout<<"enter the elements= ";
     for (int i=0;i<elements;i++){
         cin>>arr[i];
     }
@@ -13,6 +14,6 @@ int main(){
     for(int j=0;j<elements;j++){
         count =count+arr[j];
     }
-    cout<<"the everage of elemnts of array= "<<count/elements;
+    cout<<"the average of elemnts of array= "<<count/elements;
     return 0;
 }

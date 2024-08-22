@@ -7,6 +7,7 @@ int main(){
     const int elements =number;
     int arr[elements];
     //---input the array elements---
+    cout<<"enter the elements= ";
     for (int i=0;i<elements;i++){
         cin>>arr[i];
     }

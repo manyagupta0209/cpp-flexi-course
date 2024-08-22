@@ -12,7 +12,7 @@ int main(){
     //---comparing reversed string to original----
     //---if orignal string = rev string---->PALLINDROME---
     if(a==rev_a){
-        cout<<a<<" is a palindrome= ";
+        cout<<a<<" is a palindrome ";
     }
     //---else not a pallindrome---
     else{

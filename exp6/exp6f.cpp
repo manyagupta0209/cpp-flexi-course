@@ -13,7 +13,7 @@ int main(){
     }
     cout<<endl;
         }
-
+    cout<<endl;
     //for repeating alphabet pattern
     char alpha='A';
      for(int i=0;i<num;i++){

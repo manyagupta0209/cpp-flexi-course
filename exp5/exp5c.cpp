@@ -11,7 +11,7 @@ int main(){
         cin>>a;
         cout<<"enter the 2nd number"<<endl;
         cin>>b;
-        cout<<"Sum "<<a<<"+"<<b<<" "<<a+b;
+        cout<<"Sum "<<a<<"+"<<b<<"="<<a+b;
         break;
 
         case 2://---DIFFERENCE---
@@ -19,7 +19,7 @@ int main(){
         cin>>a;
         cout<<"enter the 2nd number"<<endl;
         cin>>b;
-        cout<<"Difference of "<<a<<"-"<<b<<" "<<a-b;
+        cout<<"Difference of "<<a<<"-"<<b<<"="<<a-b;
         break;
 
         case 3://---MULTIPLICATION---
@@ -27,7 +27,7 @@ int main(){
         cin>>a;
         cout<<"enter the 2nd number"<<endl;
         cin>>b;
-        cout<<"Multiplication of"<<a<<"*"<<b<<" "<<a*b;
+        cout<<"Multiplication of"<<a<<"*"<<b<<"="<<a*b;
         break;
 
         case 4://---DIVISION---
@@ -41,7 +41,7 @@ int main(){
         }
         else{
             ans= float(a)/float(b);
-            cout<<"Division of "<<a<<"/"<<b<<" "<<ans;
+            cout<<"Division of "<<a<<"/"<<b<<"="<<ans;
         }
         break;
 

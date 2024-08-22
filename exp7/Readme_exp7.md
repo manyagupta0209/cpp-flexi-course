@@ -10,17 +10,17 @@ In these experiments, you will:
 
 ## Features
 
-- *Array Input:* Read and store elements in an array.
-- *Element Search:* Search for an element in the array and count its occurrences.
-- *Array Reversal:* Print array elements in reverse order.
-- *Average Calculation:* Calculate and display the average of array elements.
-- *Max/Min Finder:* Determine and display the maximum and minimum values in the array.
+- **Array Input:** Read and store elements in an array.
+- **Element Search:** Search for an element in the array and count its occurrences.
+- **Array Reversal:** Print array elements in reverse order.
+- **Average Calculation:** Calculate and display the average of array elements.
+- **Max/Min Finder:** Determine and display the maximum and minimum values in the array.
 
 ## Prerequisites
 
 Before running the code, ensure you have the following:
-- *C++ Compiler:* A C++ compiler such as g++ or clang++.
-- *Basic Knowledge of C++:* Familiarity with C++ syntax, arrays, loops, and input/output operations.
+- **C++ Compiler:** A C++ compiler such as `g++` or `clang++`.
+- **Basic Knowledge of C++:** Familiarity with C++ syntax, arrays, loops, and input/output operations.
 
 ## Setup
 
@@ -30,11 +30,11 @@ To set up the project locally, follow these steps:
 
 Clone the repository to your local machine:
 
-`bash`
+```bash
 git clone https://github.com/manyagupta0209/cpp-flexi-course.git
 cd cpp-flexi-course/exp7
 
-exp6/
+exp7/
 ├── src/
 │   ├── array_input.cpp         # Source code for array input
 │   ├── element_search.cpp       # Source code for element search
@@ -44,7 +44,7 @@ exp6/
 ├── include/
 │   ├── [header files]
 ├── README.md  
-
+```
 
 ### 2. Compilation and Execution
  To run the experiments:
@@ -52,10 +52,10 @@ exp6/
 ### Using Command Line
 
 -Run the compiled program:
-   `bash`
+    ```bash
     g++ exp7(name_of_exp).cpp
     ./a
-    
+    ```
 
 ## Output
 - Exp7a:

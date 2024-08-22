@@ -1,36 +1,19 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
-  int s;
-  cout<< "Enter your score";
-  cin>>s;
-  if(s>=90)
-  {
-    cout<<"Your grade is A"<<endl;
-    cout<< "You are passed"<<endl;
-  }
-  else if(s>=80)
-  {
-    cout<<"Your grade is B"<<endl;
-    cout<< "You are passed"<<endl;
-  }
-  else if(s>=70)
-  {
-    cout<<"Your grade is C"<<endl;
-    cout<< "You are passed"<<endl;
-  }
-  else if(s>=60)
-  {
-    cout<<"Your grade is D"<<endl;
-    cout<< "You are passed"<<endl;
-  }
-  else if( s>=50)
-  {
-    cout<<"Your grade is E"<<endl;
-    cout<< "You are passed"<<endl;
-  }
-  else
-  { cout<< "Failed";
-  }
-  return 0;
+    int a;
+    cout<<"enter the number"<<endl;
+    cin>>a;
+    //---TO CHECK WHETHER a IS GREATER OR LESS THAN OR EQUAL TO ZERO---
+    //---comparision operators---
+    if (a==0){
+        cout<<a<<" is equal to 0";
+    }
+    else if (a>0){
+        cout<<a<<" is greater than 0";
+    }
+    else{
+        cout<<a<<" is less than 0";
+    }
+    return 0;
 }

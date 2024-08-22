@@ -7,6 +7,6 @@ int main(){
     for(int i=1; i<=num; i++){
         sum=sum+i;
     }
-    cout<<sum;
+    cout<<"the sum of first "<<num<<" numbers= "<<sum;
     return 0;
 }

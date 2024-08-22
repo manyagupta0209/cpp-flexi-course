@@ -1,36 +1,48 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a;
-    cout<<"enter\n1:Monday\n2:Tuesday\n3:Wednesday\n4:Thursday\n5:Friday\n6:Saturday\n7:Sunday"<<endl;
-    cin>>a;
-    switch(a){
-        case 1:
-        cout<<"Monday";
+    int oper,a,b;
+    float ans;
+    cout<<"operation to perform\n1:Add\n2:Sub\n3:Mult\n4:Div"<<endl;
+    cin>>oper;
+    switch(oper){
+        case 1://---ADDITION---
+        cout<<"enter 1st number"<<endl;
+        cin>>a;
+        cout<<"enter the 2nd number"<<endl;
+        cin>>b;
+        cout<<"Sum "<<a<<"+"<<b<<" "<<a+b;
         break;
 
-        case 2:
-        cout<<"Tuesday";
+        case 2://---DIFFERENCE---
+        cout<<"enter 1st number"<<endl;
+        cin>>a;
+        cout<<"enter the 2nd number"<<endl;
+        cin>>b;
+        cout<<"Difference of "<<a<<"-"<<b<<" "<<a-b;
         break;
 
-        case 3:
-        cout<<"Wednesday";
+        case 3://---MULTIPLICATION---
+        cout<<"enter 1st number"<<endl;
+        cin>>a;
+        cout<<"enter the 2nd number"<<endl;
+        cin>>b;
+        cout<<"Multiplication of"<<a<<"*"<<b<<" "<<a*b;
         break;
 
-        case 4:
-        cout<<"Thursday";
-        break;
-
-        case 5:
-        cout<<"Friday";
-        break;
-
-        case 6:
-        cout<<"Saturday";
-        break;
-
-        case 7:
-        cout<<"Sunday";
+        case 4://---DIVISION---
+        cout<<"enter 1st number"<<endl;
+        cin>>a;
+        cout<<"enter the 2nd number"<<endl;
+        cin>>b;
+        //---checks whether the denominator is not zero---
+        if(b==0){
+            cout<<"infinite answer";
+        }
+        else{
+            ans= float(a)/float(b);
+            cout<<"Division of "<<a<<"/"<<b<<" "<<ans;
+        }
         break;
 
         default:

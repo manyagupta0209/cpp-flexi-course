@@ -1,17 +1,23 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a;
-    cout<<"enter the number"<<endl;
+    //----Take Input from the User----
+    int a,b;
+    cout<<"enter the first number= "; 
     cin>>a;
-    if (a==0){
-        cout<<a<<" is equal to 0";
-    }
-    else if (a>0){
-        cout<<a<<" is greater than 0";
-    }
-    else{
-        cout<<a<<" is less than 0";
-    }
+    cout<<"enter the second number= ";
+    cin>>b;
+    //----Bitwise AND----
+    cout<<"Bitwise AND= "<<(a&b)<<endl;
+    //----Bitwise OR-----
+    cout<<"Bitwise OR= "<<(a|b)<<endl;
+    //----Bitwise XOR----
+    cout<<"Bitwise XOR= "<<(a^b)<<endl;
+    //----Bitwise NOT----
+    cout<<"Bitwise NOT= "<<(~a)<<endl;
+    //----Left shift-----
+    cout<<"Left Shift= "<<(a<<1)<<endl;
+    //----Right shift----
+    cout<<"Right Shift= "<<(a>>1)<<endl;
     return 0;
 }

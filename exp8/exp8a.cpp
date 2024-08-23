@@ -1,11 +1,12 @@
-# include <iostream>
-# include <string>
+#include <iostream>
+#include <string>
 using namespace std;
-int main(){
+int main()
+{
     string a;
-    cout<<"enter the string= ";
+    cout << "enter the string= ";
     //----getting string input from user----
-    getline(cin,a);
-    cout<<a;
+    getline(cin, a);
+    cout << a;
     return 0;
 }

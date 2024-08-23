@@ -73,3 +73,13 @@ g++ exp8(name_of_exp).cpp
 - Exp8e:
 
 ![alt text](outputExp8e.png)
+
+- Exp8f:
+
+![alt text](outputExp8f-1.png)
+
+![alt text](outputExp8f-2.png)
+
+- Exp8g:
+
+![alt text](outputExp8g.png)

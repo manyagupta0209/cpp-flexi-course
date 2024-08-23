@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
@@ -19,16 +20,18 @@ int main()
             cin >> a[i][j];
         }
     }
-    //---printing the matrix---
-    cout << "array in matrix form=" << endl;
+    //-------Adjoint of the matrix-------
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < columns; j++)
         {
-            cout << "\t" << a[i][j];
+            // int a = i;
+            // i = j;
+            // j = a;
+            cout << "array in transpose form=" << endl;
+            cout << "\t" << a[j][i];
         }
         cout << endl;
     }
-
     return 0;
 }

@@ -28,6 +28,6 @@ int main()
     //----object accessing the attribute----
     rect.setDimensions(5.0, 3.0);
     //----displaying the area of rectangle----
-    cout << "Area: " << rect.calculateArea() << endl;
+    cout << "Area of rectangle: " << rect.calculateArea() << endl;
     return 0;
 }

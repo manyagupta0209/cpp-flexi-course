@@ -21,6 +21,7 @@ int main()
         }
     }
     //-------Adjoint of the matrix-------
+    cout << "array in transpose form=" << endl;
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < columns; j++)
@@ -28,7 +29,6 @@ int main()
             // int a = i;
             // i = j;
             // j = a;
-            cout << "array in transpose form=" << endl;
             cout << "\t" << a[j][i];
         }
         cout << endl;

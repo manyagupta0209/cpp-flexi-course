@@ -20,15 +20,12 @@ int main()
             cin >> a[i][j];
         }
     }
-    //-------Adjoint of the matrix-------
+    //-------Transpose of the matrix-------
     cout << "array in transpose form=" << endl;
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < columns; j++)
         {
-            // int a = i;
-            // i = j;
-            // j = a;
             cout << "\t" << a[j][i];
         }
         cout << endl;

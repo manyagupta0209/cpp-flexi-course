@@ -82,4 +82,4 @@ g++ src/exp11d.cpp -o exp11d
 
 - Exp11d:
 
-![alt text](outputExp11d.png)![alt text](image.png)
+![alt text](outputExp11d.png)

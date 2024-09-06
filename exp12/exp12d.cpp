@@ -8,23 +8,30 @@ private:
     int bred;
 
 public:
-    //----Parameterized constructor which will print area of rect----
-    Area_rect(int val1 = 0, int val2 = 0)
+    int length, breadth;
+    //----function to input input the length and breadth from the user----
+    int Input_dimension()
     {
-        len = val1;
-        bred = val2;
-        cout << "the area= " << len * bred << endl;
+        cout << "Enter the length= " << endl;
+        cin >> length;
+        cout << "Enter the breadth= " << endl;
+        cin >> breadth;
+        len = length;
+        bred = breadth;
+        return 0;
+    }
+    //----Parameterized constructor which will print area of rect----
+    int Area()
+    {
+        Input_dimension();
+        cout << "the area of rectangle = " << len * bred << endl;
     }
 };
 int main()
 {
-    //----input the length and breadth from the user----
-    int length, breadth;
-    cout << "Enter the length= " << endl;
-    cin >> length;
-    cout << "Enter the breadth= " << endl;
-    cin >> breadth;
     //----initialising objects----
-    Area_rect obj(length, breadth);
+    Area_rect obj;
+    //----creating the instance of the class----
+    obj.Area();
     return 0;
 }

@@ -49,7 +49,7 @@ public:
 };
 int main()
 {
-    Heat d;//object declaration
+    Heat d; // object declaration
     d.life();
     d.sun();
     d.gas();
